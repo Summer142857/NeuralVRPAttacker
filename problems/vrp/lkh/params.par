@@ -1,0 +1,6 @@
+SPECIAL
+RUNS = 10
+TRACE_LEVEL = 1
+SEED = 0
+PROBLEM_FILE = ./problems/vrp/lkh/problem.vrp
+OUTPUT_TOUR_FILE = ./problems/vrp/lkh/output.tour
