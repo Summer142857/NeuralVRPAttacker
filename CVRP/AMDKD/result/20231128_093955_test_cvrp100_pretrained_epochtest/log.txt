@@ -1,0 +1,6 @@
+[2023-11-28 09:39:55] test.py(113) : DEBUG_MODE: False
+[2023-11-28 09:39:55] test.py(114) : USE_CUDA: True, CUDA_DEVICE_NUM: 0
+[2023-11-28 09:39:55] test.py(115) : env_params{'problem_size': 100, 'pomo_size': 100, 'distribution': {'data_type': 'uniform'}, 'load_raw': None}
+[2023-11-28 09:39:55] test.py(115) : model_params{'embedding_dim': 64, 'sqrt_embedding_dim': 8.0, 'encoder_layer_num': 6, 'qkv_dim': 8, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax'}
+[2023-11-28 09:39:55] test.py(115) : tester_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': './pretrained/checkpoint-100.pt', 'epoch': 'test'}, 'test_episodes': 10, 'test_batch_size': 10, 'augmentation_enable': True, 'aug_factor': 8, 'aug_batch_size': 10, 'test_data_load': {'enable': False, 'filename': ''}}
+[2023-11-28 09:39:55] test.py(115) : logger_params{'log_file': {'desc': 'test_cvrp100_pretrained_epochtest', 'filename': 'log.txt', 'filepath': './result/20231128_093955_test_cvrp100_pretrained_epochtest'}}

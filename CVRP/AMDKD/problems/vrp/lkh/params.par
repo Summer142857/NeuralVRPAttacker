@@ -1,0 +1,7 @@
+SPECIAL
+MAX_TRIALS = 10000
+RUNS = 1
+TRACE_LEVEL = 1
+SEED = 0
+PROBLEM_FILE = F:\program\PomoAttack\CVRP\problems\vrp\lkh\problem.vrp
+OUTPUT_TOUR_FILE = F:\program\PomoAttack\CVRP\problems\vrp\lkh\output.tour
