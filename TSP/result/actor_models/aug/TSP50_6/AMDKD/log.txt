@@ -1,0 +1,40 @@
+[2023-12-12 19:50:47] PomoAttackerAC_dkd.py(611) : model_params{'embedding_dim': 128, 'sqrt_embedding_dim': 11.313708498984761, 'encoder_layer_num': 6, 'qkv_dim': 16, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax', 'critic_optimizer_params': {'lr': 0.0001}, 'actor_optimizer_params': {'lr': 5e-05}}
+[2023-12-12 19:50:47] PomoAttackerAC_dkd.py(611) : base_params{'type': 'AMDKD', 'embedding_dim': 64, 'sqrt_embedding_dim': 8.0, 'encoder_layer_num': 6, 'qkv_dim': 8, 'head_num': 8, 'logit_clipping': 10, 'ff_hidden_dim': 512, 'eval_type': 'argmax', 'critic_optimizer_params': {'lr': 0.0001}, 'actor_optimizer_params': {'lr': 5e-05}}
+[2023-12-12 19:50:47] PomoAttackerAC_dkd.py(611) : running_params{'use_cuda': True, 'cuda_device_num': 0, 'model_load': {'path': './AMDKD/pretrained', 'epoch': 100}, 'critic_load': {'path': './POMO/pretrained', 'epoch': 3100}, 'actor_load': None, 'batch_size': 64, 'augmentation_enable': True, 'test_aug_factor': 8, 'critic_aug_factor': 8, 'aug_batch_size': 64, 'train_episodes': 1000, 'epochs': 5, 'model_save_interval': 5, 'keep_node_num': 50, 'return_optimal_gap': True, 'round_epoch': 5}
+[2023-12-12 19:50:47] PomoAttackerAC_dkd.py(611) : env_params{'problem_size': 300}
+[2023-12-12 19:50:47] PomoAttackerAC_dkd.py(611) : logger_params{'log_file': {'desc': 'train_AMDKD_tsp_n50_aug_300', 'filename': 'log.txt', 'filepath': './result/20231212_195047_train_AMDKD_tsp_n50_aug_300'}}
+[2023-12-12 19:50:48] PomoAttackerAC_dkd.py(107) : =================================================================
+[2023-12-12 19:51:10] PomoAttackerAC_dkd.py(182) : Epoch   1: Train  64/1000(6.4%)  Score: 0.0110, Loss: 0.0006, Div:0.0000
+[2023-12-12 19:51:31] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 128/1000(12.8%)  Score: 0.0108, Loss: 0.0004, Div:0.0000
+[2023-12-12 19:51:51] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 192/1000(19.2%)  Score: 0.0109, Loss: 0.0003, Div:0.0000
+[2023-12-12 19:52:12] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 256/1000(25.6%)  Score: 0.0111, Loss: 0.0003, Div:0.0000
+[2023-12-12 19:52:33] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 320/1000(32.0%)  Score: 0.0111, Loss: 0.0001, Div:0.0000
+[2023-12-12 19:52:53] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 384/1000(38.4%)  Score: 0.0112, Loss: 0.0002, Div:0.0000
+[2023-12-12 19:53:14] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 448/1000(44.8%)  Score: 0.0111, Loss: 0.0001, Div:0.0000
+[2023-12-12 19:53:35] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 512/1000(51.2%)  Score: 0.0112, Loss: 0.0001, Div:0.0000
+[2023-12-12 19:53:55] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 576/1000(57.6%)  Score: 0.0113, Loss: 0.0000, Div:0.0000
+[2023-12-12 19:54:15] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 640/1000(64.0%)  Score: 0.0114, Loss: -0.0000, Div:0.0000
+[2023-12-12 19:54:36] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 704/1000(70.4%)  Score: 0.0114, Loss: -0.0001, Div:0.0000
+[2023-12-12 19:54:57] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 768/1000(76.8%)  Score: 0.0115, Loss: -0.0001, Div:0.0000
+[2023-12-12 19:55:17] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 832/1000(83.2%)  Score: 0.0116, Loss: -0.0002, Div:0.0000
+[2023-12-12 19:55:37] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 896/1000(89.6%)  Score: 0.0117, Loss: -0.0002, Div:0.0000
+[2023-12-12 19:55:58] PomoAttackerAC_dkd.py(182) : Epoch   1: Train 960/1000(96.0%)  Score: 0.0118, Loss: -0.0003, Div:0.0000
+[2023-12-12 19:56:11] PomoAttackerAC_dkd.py(187) : Epoch   1: Train (100%)  Score: 0.0119,  Loss: -0.0003, Div:0.0000
+[2023-12-12 19:56:11] PomoAttackerAC_dkd.py(127) : Epoch   1/  5: Time Est.: Elapsed[5.39m], Remain[21.55m]
+[2023-12-12 19:56:11] PomoAttackerAC_dkd.py(107) : =================================================================
+[2023-12-12 20:01:24] PomoAttackerAC_dkd.py(187) : Epoch   2: Train (100%)  Score: 0.0145,  Loss: -0.0001, Div:0.0000
+[2023-12-12 20:01:24] PomoAttackerAC_dkd.py(127) : Epoch   2/  5: Time Est.: Elapsed[10.59m], Remain[15.89m]
+[2023-12-12 20:01:24] PomoAttackerAC_dkd.py(107) : =================================================================
+[2023-12-12 20:06:30] PomoAttackerAC_dkd.py(187) : Epoch   3: Train (100%)  Score: 0.0141,  Loss: 0.0000, Div:0.0000
+[2023-12-12 20:06:30] PomoAttackerAC_dkd.py(127) : Epoch   3/  5: Time Est.: Elapsed[15.70m], Remain[10.46m]
+[2023-12-12 20:06:30] PomoAttackerAC_dkd.py(107) : =================================================================
+[2023-12-12 20:11:34] PomoAttackerAC_dkd.py(187) : Epoch   4: Train (100%)  Score: 0.0151,  Loss: -0.0000, Div:0.0000
+[2023-12-12 20:11:34] PomoAttackerAC_dkd.py(127) : Epoch   4/  5: Time Est.: Elapsed[20.76m], Remain[5.19m]
+[2023-12-12 20:11:34] PomoAttackerAC_dkd.py(107) : =================================================================
+[2023-12-12 20:16:30] PomoAttackerAC_dkd.py(187) : Epoch   5: Train (100%)  Score: 0.0149,  Loss: -0.0003, Div:0.0000
+[2023-12-12 20:16:30] PomoAttackerAC_dkd.py(127) : Epoch   5/  5: Time Est.: Elapsed[25.70m], Remain[0.00m]
+[2023-12-12 20:16:30] PomoAttackerAC_dkd.py(135) : Saving trained_model
+[2023-12-12 20:16:30] PomoAttackerAC_dkd.py(152) :  *** Training Done *** 
+[2023-12-12 20:16:30] PomoAttackerAC_dkd.py(153) : Now, printing log array...
+[2023-12-12 20:16:30] utils.py(216) : train_score_list = [0.011905757415821987, 0.014476371307435123, 0.014087717225821224, 0.015056575152728431, 0.014850129604480938]
+[2023-12-12 20:16:30] utils.py(216) : train_loss_list = [-0.0002614160717930645, -0.00014237569736724254, 1.1266192793982554e-05, -4.93849478662014e-05, -0.0003115336721530184]
